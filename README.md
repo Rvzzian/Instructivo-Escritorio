@@ -22,7 +22,7 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu máquina. Est
 
 ## Instalación
 
-1. Clona el repositorio en tu máquina local:
+1. Clona el repositorio en tu máquina local en tu carpeta de xampp adentro de htdocs para realizar las pruebas desde xampp:
    ```
    git clone <URL_DEL_REPOSITORIO>
    ```
