@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,155 +8,170 @@
     <link rel="stylesheet" href="css/stylesSoporte.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
     <div class="container">
-        <header class="header-bg text-white text-center my-4 d-flex flex-column justify-content-center align-items-center">
+        <header
+            class="header-bg text-white text-center my-4 d-flex flex-column justify-content-center align-items-center">
             <div class="header-overlay">
                 <h1 class="display-4 font-weight-bold">Instructivo de Uso del Software</h1>
                 <p class="lead">Perfil soporte</p>
             </div>
         </header>
-        <!--
         <main>
-                    <section class="mb-5">
-            <h2 class="text-center">Descripción de la Interfaz - Módulo PQRS en DOCFI</h2>
-            <p>La interfaz corresponde al módulo de PQRS (Peticiones, Quejas, Reclamos y Sugerencias) de la aplicación llamada DOCFI. Está compuesta por tres áreas principales:</p>
-  <img src="img/soporte_1/imagen1.png" alt="Menú lateral PQRS" class="img img-fluid my-3">
+            <section>
+                <h2>Contenido</h2>
+                <p>Sigue estos pasos para instalar el software:</p>
+                <ol>
+                    <li><a href="#TICKETS">TICKETS</a></li>
+                    <li><a href="#PQRS">PQRS</a></li>
+                    <li><a href="#salir">SALIR</a></li>
 
-            <h4>1. Barra lateral izquierda (Menú de navegación)</h4>
-            <p>Botones de navegación con íconos e identificadores:</p>
-            <ul>
-                <li>HOME</li>
-                <li>TICKETS</li>
-                <li><strong>PQRS</strong> (actualmente seleccionado y sombreado)</li>
-                <li>SALIR (ícono circular con flecha)</li>
-            </ul>
-            <img src="img/soporte_1/imagen2.png" alt="Menú lateral 2" class="img img-fluid my-3">
+                </ol>
+            </section>
+            <section class="mb-5" id="=1">
+                <h2>1. Barra lateral izquierda (Menú de navegación)</h2>
+                <ul>
+                    <li>HOME</li>
+                    <li><strong>PQRS</strong> (actualmente seleccionado )</li>
+                    <li>SALIR (ícono circular con flecha)</li>
+                </ul>
 
-            <h4>2. Campo central de Registros</h4>
-            <img src="img/soporte_1/imagen3.png" alt="Tabla PQRS" class="img img-fluid my-3">
-            <p>Contiene una tabla con los siguientes campos:</p>
-            <ul>
-                <li>ID: Identificador del PQRS.</li>
-                <li>Título: Texto del asunto o problema reportado.</li>
-                <li>Fecha: Fecha de creación del PQRS.</li>
-                <li>Estado: Estado actual del trámite (Espera, Proceso, Finalizado).</li>
-                <li>Tomado: Usuario que está manejando el caso (ej: soporte1).</li>
-                <li> Tipo: Clasificación del PQRS (Quejas, Peticiones, Reclamos, etc.).</li>
-            <img src="img/soporte_1/imagen4.png" alt="Filtros PQRS" class="img img-fluid my-3">
-                <li>Vista: Botón “Ver” para desplegar el detalle del PQRS en el panel derecho como podemos ver en la imagen de referencia li>
-            <img src="img/soporte_1/imagen5.png" alt="Filtros PQRS" class="img img-fluid my-3">
-            </ul>
-            <p>En la parte superior encontramos un buscador de texto para filtrar por contenido.</p>
-            <img src="img/soporte_1/imagen6.png" alt="Filtros PQRS" class="img img-fluid my-3">
-            <p>Un filtro desplegable con las etiquetas: Todos, Espera, Proceso, Finalizado.</p>
-            <img src="img/soporte_1/imagen7.png" alt="Filtros PQRS" class="img img-fluid my-3">
-            <p>En la parte inferior encontraremos: botones de avance o retroceso según el número de registros del listado.</p>
-            <img src="img/soporte_1/imagen8.png" alt="Filtros PQRS" class="img img-fluid my-3">
-          
+                <img src="img/soporte_1/imagen2.png" alt="Menú lateral 2" class="imgG">
 
-            <h4>3. Panel derecho de detalle del PQRS</h4>
-<img src="img/soporte_1/imagen9.png" alt="Filtros PQRS" class="img img-fluid my-3">
-            <p>Cuando se selecciona un registro, en el campo Vista, botón Ver, se muestra el detalle del PQRS con campos editables:</p>
-<ul>
-                <li>ID y Fecha (en la parte superior derecha)</li>
-<img src="img/soporte_1/imagen10.png" alt="Filtros PQRS" class="img img-fluid my-3">
-            <li>Tipo: Campo de texto para el tipo de PQRS.</li>
-<img src="img/soporte_1/imagen11.png" alt="Filtros PQRS" class="img img-fluid my-3">
-                <li>Título: Campo de texto para editar el título.</li>
-<img src="img/soporte_1/imagen12.png" alt="Filtros PQRS" class="img img-fluid my-3">
-               <li>Información: Área de texto amplia para mostrar o escribir el detalle del caso.</li>
-<img src="img/soporte_1/imagen13.png" alt="Filtros PQRS" class="img img-fluid my-3">
-                <li>Correo, Nombre, Estado, Tomado por: Campos de datos personales y estado de la gestión. La casilla Estado es desplegable (Espera, Proceso, Finalizado).</li>
-<img src="img/soporte_1/imagen14.png" alt="Filtros PQRS" class="img img-fluid my-3">
-                <li>Botón Guardar para aplicar cambios.</li>
-            </ul>
-        </section>
+                <h2 class="text-center" id="PQRS">Descripción de la Interfaz - Módulo PQRS en DOCFI</h2>
+                <p>La interfaz corresponde al módulo de PQRS (Peticiones, Quejas, Reclamos y Sugerencias) de la
+                    aplicación llamada DOCFI. Está compuesta por tres áreas principales:</p>
+                <img src="img/soporte_1/imagen1.png" alt="Menú lateral PQRS" class="img img-fluid my-3">
 
-        <section>
-            <h2 class="text-center">Descripción de la Interfaz – Módulo TICKETS en DOCFI</h2>
-            <p>La interfaz corresponde al módulo de TICKETS de la aplicación llamada DOCFI. Está compuesta por tres áreas principales:</p>
-<img src="img/soporte_1/imagen15.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+                <p>Botones de navegación con íconos e identificadores:</p>
 
-            <h4>1. Barra lateral izquierda (Menú de navegación)</h4>
-            <p>Botones de navegación con íconos e identificadores:</p>
-            <ul>
-                <li>HOME</li>
-                <li><strong>TICKETS</strong> (actualmente seleccionado y sombreado)</li>
-                <li>PQRS</li>
-                <li>SALIR (ícono circular con flecha)</li>
-<img src="img/soporte_1/imagen16.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            </ul>
-
-            <h4>2. Campo central de Registros</h4>
-<img src="img/soporte_1/imagen17.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            <p>Contiene una tabla con los siguientes campos:</p>
-            <ul>
-                <li>ID: Identificador del TICKET.</li>
-                <li>Título: Texto del asunto o problema reportado.</li>
-                <li>Fecha: Fecha de creación del TICKET.</li>
-                <li>Estado: Estado actual del trámite (Espera, Proceso, Finalizado).</li>
-                <li>Tomado: Usuario que está manejando el caso (ej: soporte1).</li>
-<img src="img/soporte_1/imagen18.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-                <li>Vista: Botón “Ver” para desplegar el detalle del TICKET en el panel derecho.</li>
-<img src="img/soporte_1/imagen19.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            </ul>
-            <p>En la parte superior encontramos un buscador de texto para filtrar por contenido.</p>
-<img src="img/soporte_1/imagen20.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            <p>Un filtro desplegable con las etiquetas: Todos, Espera, Proceso, Finalizado.</p>
-<img src="img/soporte_1/imagen21.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            <p>En la parte inferior encontraremos: botones de avance o retroceso según el número de registros del listado.</p>
-            <img src="img/soporte_1/imagen22.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            <h4>3. Panel derecho de detalle del TICKET</h4>
-<img src="img/soporte_1/imagen23.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-            <p>Cuando se selecciona un registro, en el campo Vista, botón Ver, se muestra el detalle del TICKET con campos editables:</p>
-            <ul>
-                <li>ID del ticket y Fecha (en la parte superior derecha)</li>
-<img src="img/soporte_1/imagen24.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-                <li>Título: Campo de texto que indica tipo de soporte técnico.</li>
-<img src="img/soporte_1/imagen25.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-                <li>Información: Área de texto amplia para mostrar o escribir el detalle del soporte.</li>
-<img src="img/soporte_1/imagen26.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-                <li>Correo, Nombre, Estado: Campos de datos personales y estado de la gestión. La casilla Estado es desplegable (Espera, Proceso, Finalizado).</li>
-<img src="img/soporte_1/imagen27.png" alt="Filtros TICKETS " class="img img-fluid my-3">
-
-                <li>Botón Guardar para aplicar cambios.</li>
-            </ul>
-        </section>
-    </main>
-
-     -->
+                <h3>2. Campo central de Registros</h3>
+                <img src="img/soporte_1/imagen3.png" alt="Tabla PQRS" class="img img-fluid my-3">
+                <p>Contiene una tabla con los siguientes campos:</p>
+                <ul>
+                    <li>ID: Identificador del PQRS.</li>
+                    <li>Título: Texto del asunto o problema reportado.</li>
+                    <li>Fecha: Fecha de creación del PQRS.</li>
+                    <li>Estado: Estado actual del trámite (Espera, Proceso, Finalizado).</li>
+                    <li>Tomado: Usuario que está manejando el caso (ej: soporte1).</li>
+                    <li> Tipo: Clasificación del PQRS (Quejas, Peticiones, Reclamos, etc.).</li>
+                    <img src="img/soporte_1/imagen4.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                    <li>Vista: Botón “Ver” para desplegar el detalle del PQRS en el panel derecho como podemos ver en la
+                        imagen de referencia </li>
+                    <img src="img/soporte_1/imagen5.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                </ul>
+                <p>En la parte superior encontramos un buscador de texto para filtrar por titulo del contenido.</p>
+                <img src="img/soporte_1/imagen6.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                <p>Un filtro desplegable con las etiquetas: Todos, Espera, Proceso, Finalizado.</p>
+                <img src="img/soporte_1/imagen7.png" alt="Filtros PQRS" class="imgG">
+                <p>En la parte inferior encontraremos: botones de avance o retroceso según el número de registros del
+                    listado.</p>
+                <img src="img/soporte_1/imagen8.png" alt="Filtros PQRS" class="img img-fluid my-3">
 
 
-    <footer class="text-center my-4">
-        <p>&copy; 2025 Instructivo de Software. Todos los derechos reservados.</p>
-    </footer>
-</div>
+                <h3>Panel derecho de detalle del PQRS</h3>
+                <img src="img/soporte_1/imagen9.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                <p>Cuando se selecciona un registro, en el campo Vista, botón Ver, se muestra el detalle del PQRS con
+                    campos editables:</p>
+                <ul>
+                    <li>ID y Fecha (en la parte superior derecha)</li>
+                    <img src="img/soporte_1/imagen10.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                    <li>Tipo: Campo de texto para el tipo de PQRS.</li>
+                    <img src="img/soporte_1/imagen11.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                    <li>Título: Campo de texto para editar el título.</li>
+                    <img src="img/soporte_1/imagen12.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                    <li>Información: Área de texto amplia para mostrar o escribir el detalle del caso.</li>
+                    <img src="img/soporte_1/imagen13.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                    <li>Correo, Nombre, Estado, Tomado por: Campos de datos personales y estado de la gestión. La
+                        casilla Estado es desplegable (Espera, Proces   o, Finalizado) 
+                        <br>junto el botón Guardar, para aplicar cambios.</li>
 
-<script src="js/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-        <footer class="text-center my-4">
-            <p>&copy; 2025 Instructivo de Software. derechos de autor a no se xd.</p>
-        </footer>
+                    <img src="img/soporte_1/imagen14.png" alt="Filtros PQRS" class="img img-fluid my-3">
+                </ul>
+            </section>
+
+<!--SECCION TICKETS-->
+            <section>
+                <h2>2 .Barra lateral izquierda (Menú de navegación)</h2>
+                <p>Botones de navegación con íconos e identificadores:</p>
+                <ul>
+                    <li>HOME</li>
+                    <li><strong>TICKETS</strong> (actualmente seleccionado y sombreado)</li>
+                    <li>PQRS</li>
+                    <li>SALIR (ícono circular con flecha)</li>
+                    <img src="img/soporte_1/imagen16.png" alt="Filtros TICKETS " class="imgG">
+
+                </ul>
+
+                <h2 class="text-center" id="TICKETS">Descripción de la Interfaz - Módulo TICKETS en DOCFI</h2>
+                <p>La interfaz corresponde al módulo de TICKETS de la aplicación llamada DOCFI. Está compuesta por tres
+                    áreas principales:</p>
+                <img src="img/soporte_1/imagen15.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                
+                <h3>Campo central de Registros</h3>
+                <img src="img/soporte_1/imagen17.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                <p>Contiene una tabla con los siguientes campos:</p>
+                <ul>
+                    <li>ID: Identificador del TICKET.</li>
+                    <li>Título: Texto del asunto o problema reportado.</li>
+                    <li>Fecha: Fecha de creación del TICKET.</li>
+                    <li>Estado: Estado actual del trámite (Espera, Proceso, Finalizado).</li>
+                    <li>Tomado: Usuario que está manejando el caso (ej: soporte1).</li>
+                    <img src="img/soporte_1/imagen18.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                    <li>Vista: Botón “Ver” para desplegar el detalle del TICKET en el panel derecho.</li>
+                    <img src="img/soporte_1/imagen19.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                </ul>
+                <p>En la parte superior encontramos un buscador de texto para filtrar por titulo del contenido.</p>
+                <img src="img/soporte_1/imagen20.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                <p>Un filtro desplegable con las etiquetas: Todos, Espera, Proceso, Finalizado.</p>
+                <img src="img/soporte_1/imagen21.png" alt="Filtros TICKETS " class="imgG">
+
+                <p>En la parte inferior encontraremos: botones de avance o retroceso según el número de registros del
+                    listado.</p>
+                <img src="img/soporte_1/imagen22.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                <h2>Panel derecho de detalle del TICKET</h2>
+                <img src="img/soporte_1/imagen23.png" alt="Filtros TICKETS " class="imgG">
+
+                <p>Cuando se selecciona un registro, en el campo Vista, botón Ver, se muestra el detalle del TICKET con
+                campos editables:</p>
+                <ul>
+                    <li>ID del ticket y Fecha (en la parte superior derecha)</li>
+                    <img src="img/soporte_1/imagen24.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                    <li>Título: Campo de texto que indica tipo de soporte técnico.</li>
+                    <img src="img/soporte_1/imagen25.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+                    
+                    
+                    <li>Imagen: Campo de imagen dara una vista previa presionando doble click dentro de la imagen se amplia.</li>
+                    <img src="img/soporte_1/imagen28.png" alt="Filtros TICKETS " class="imgG">
+
+
+                    <li>Información: Área de texto amplia para mostrar o escribir el detalle del soporte.</li>
+                    <img src="img/soporte_1/imagen26.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                    <li>Correo, Nombre, Estado: Campos de datos personales y estado de la gestión. La casilla Estado es
+                        desplegable (Espera, Proceso, Finalizado).</li>
+                    <img src="img/soporte_1/imagen27.png" alt="Filtros TICKETS " class="img img-fluid my-3">
+
+                    <li>Botón Guardar para aplicar cambios.</li>
+                </ul>
+            </section>
+
+            <footer class="text-center my-4">
+                <p>&copy; 2025 Instructivo de Software. derechos de autor a no se xd.</p>
+            </footer>
     </div>
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
