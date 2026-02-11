@@ -1,6 +1,12 @@
-# Instructivo Software
+# DOCFI - Aplicación Desktop en Java
 
-Este proyecto contiene una página web instructiva para el uso de un software específico. A continuación se detallan los componentes del proyecto y cómo configurarlo.
+
+Aplicación desktop desarrollada en Java como proyecto académico,
+orientada a la gestión administrativa del aplicativo DOCFI
+
+Este repositorio funciona como guía técnica e instructivo del desarrollo,
+incluyendo estructura del proyecto y pasos de ejecución.
+
 
 ## Estructura del Proyecto
 
@@ -20,9 +26,4 @@ instructivo-software
 
 Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu máquina. Esto incluye npm, que es necesario para instalar las dependencias del proyecto.
 
-## Instalación
 
-1. Clona el repositorio en tu máquina local en tu carpeta de xampp adentro de htdocs para realizar las pruebas desde xampp:
-   ```
-   git clone <URL_DEL_REPOSITORIO>
-   ```
